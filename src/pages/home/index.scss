@@ -1,0 +1,39 @@
+.P-home{
+  width:100%;
+  height: 100%;
+}
+.P-board{
+  width:360px;
+  height:360px;
+  margin:0 auto;
+  box-shadow: 0 0 10px 10px #eee;
+  margin-top:50px;
+  display: flex;
+  flex-wrap: wrap;
+}
+.P-btn{
+  width:100%;
+  height: 40px;
+  margin-top: 20px;
+  display: flex;
+  justify-content: center;
+  align-content: center;
+  line-height: 30px;
+  text-align: center;
+  color: #fff;
+  .P-btn-save{
+    width:80px;
+    height:30px;
+    background-color: #67C23A;
+    border-radius: 8px;
+    margin-right: 10px;
+    cursor: pointer;
+  }
+  .P-btn-reset{
+    width:80px;
+    height:30px;
+    background-color: #909399;
+    border-radius: 8px;
+    cursor: pointer;
+  }
+}
